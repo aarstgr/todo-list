@@ -1,0 +1,143 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.main{
+  background-image:linear-gradient(110deg, rgba(218, 128, 55, 0.121) ,  rgba(230, 94, 49, 0.147));
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+  body {
+    background: var(--mainWhite);
+    color: #333333;
+  }
+
+  .header-todo{
+    background-color: #440ec1;
+    border-radius: 0.3rem;
+    padding: 2.5rem 1.5rem 0.2rem 1.5rem ;
+  }
+  .container{
+    background-color:#f9dede;
+    color: rgb(231, 229, 229);
+    text-align: center;
+    border-radius:  0.4rem 0.4rem 0.4rem 0.4rem;
+    padding: 0 0 4rem 0;
+    width: 50rem;
+    border: solid 0.18rem rgb(110, 109, 108);
+    
+  }
+    /* Style the input */
+    .todo-input {
+      margin: 0;
+      border: none;
+      border-radius:1rem 0  0 1rem;
+      width: 75%;
+      padding: 10px;
+      float: left;
+      font-size: 1rem;
+    }
+
+    ul li:nth-child(odd){
+     background-color:#342a2a ;
+    }
+
+    ul li:hover {
+      background: #ddd;
+    }
+
+
+   
+
+  h1{
+    font-family: Arial, Helvetica, sans-serif, Times, serif;
+    font-weight: bold;
+    padding-bottom: 2rem;
+  }
+ .input-group{
+  display: flex;
+  margin-bottom: 1.5rem;
+ }
+ #text-input-field{
+  width:30rem;
+  padding: 1rem;
+  
+ }
+
+  .todo-item-container{
+    display: flex;
+    margin: 1.5rem  0.5rem  0.5rem  0.5rem;
+    list-style: none;
+  }
+  #todo-text{
+    width: 100%;
+    font-size: 2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 0.7rem ;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    user-select: none;
+    background: #f9f9f9;
+    color: #333333;
+    border-radius: 0.8rem;
+  }
+
+  .line-through{
+   
+    color: #022008e2;
+    font-weight: bold;
+    text-decoration: line-through;
+    border-radius: 0.6rem  0  0 0.6rem;
+    list-style: none;
+  }
+
+ 
+
+  #add-button{
+    padding: 10px;
+    width: 35%;
+    background: #0ec135e2;
+    color: rgba(247, 237, 237, 0.925);
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0rem  1rem 1rem 0rem;
+    border: none;
+  }
+
+  #edit-button,
+  #delete_button{
+    padding: 1.5rem;
+    border: none;
+    background-color:  #f9f7f7;
+    width: 2.5rem;
+    height: 4rem;
+    border-radius: 0.5rem;
+  }
+
+
+
+  #edit-button:hover,
+  #delete_button:hover{
+    background-color: #edb007;
+    border-radius: 0.5rem;
+  }
+  .delete{
+    width: 3.5rem;
+    height: 4rem;
+    margin: 0 0.2rem  0 0.2rem ;
+    border-radius: 0.5rem;
+    border: none;
+    background-color:#f9f7f7 ;
+  }
+  .delete:hover{
+    background-color: rgb(250, 57, 57);
+  }
+ 
